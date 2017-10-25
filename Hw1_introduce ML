@@ -1,0 +1,46 @@
+AI：目標，Early artificial intelligence stirs excitement.
+ML：手段，Machine learning begins to flourish.
+DL：ML的方法之一，Deep learning breakthroughs drive AI boom.
+
+Machine learning <--> hand-crafted rules   
+*李老師用hand-crafted rules來對比機器學習
+
+Machine learning：looking for a function from data
+  1.Speech recognition
+  2.Image recognition
+  3.Playing Go
+  4.Dialogue system
+  5....
+Simple process：
+  Step1--define a set of function
+  Step2--goodness of function
+  Step3--pick the best function
+
+Relation between Terminology：
+  1.Scenario：
+    Supervised Learning
+    Semi-supervised Learning
+    Unsupervised Learning
+    Transfer Learning
+    Reinforcement Learning
+  2.Task：
+    Regression
+    Classification
+    Structured Learning
+  3.Method：
+    Linear model
+    Non-linear model-Deep Learning、SVM、decision tree、K-NN…
+
+Note：
+每個Scenario中都可用各種Task，而每個Task中又可使用不同的method。
+  Scenario中，以Supervised Learning最佳(或曰優先選擇)，是以提供可辨識的input及output給電腦訓練(比如，有答案的圖像辨識)；
+  相對地，Reinforcement Learning則是由電腦自行判斷、訓練(沒答案的圖像辨識)。
+AlphaGo使用了上述兩種方法，先給人類下過的棋譜學習，之後改由電腦與電腦對奕來增強棋力。
+  這邊很有意思，當初學到上面這段的時候，我知道了像AlphaGo master版本這樣的棋力，是先透過學習人類棋手的對奕(Supervised Learning)，
+  之後再由自我對奕來精進(Reinforcement Learning)，我的一個疑問是，如果一開始還是需要透過學習人類對奕，那能夠發展成最佳的版本嗎？
+  難道不會學習到人類一些較差的方法嗎？可是影片中李老師提到，如果有資料能夠提供電腦學習，用Supervised Learning是比較好的，也許，
+  這邊指的是說要讓電腦學習到一定程度的速度及上手的速度是比較快的吧？因為這兩天出了一個新聞，
+  已經有團隊用Reinforcement Learning發展出更佳的AlphaGoZero，可勝master，這就表示，如果可以突破人類模式的限制，
+  電腦是可更上一層樓的。這件事的發展比較符合我的想法，也是我所認為的機器學習應該達到的能力。
+AlphaGo Zero 發表文獻連結：https://goo.gl/MMUqhj
+李老師的影片連結：李宏毅-機器學習  https://www.youtube.com/watch?v=CXgbekl66jc
